@@ -6,12 +6,12 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/<github-username>/managed-argocd-lab' # Update to match your fork.
+    repoURL: 'https://github.com/techsysvbo/managed-argocd-lab' # Update to match your fork.
     path: portal
     targetRevision: HEAD
   destination:
-    namespace: portal
-    name: <environment-name> # Update this value.
+    namespace: default
+    name: victory4me # Update this value.
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
